@@ -31,4 +31,4 @@ INSERT INTO post
 DELETE FROM post WHERE nombre_usuario='Carlos';
 -- 8. Ingresar un nuevo post para el usuario "Carlos"
 INSERT INTO post(id,nombre_usuario, fecha_de_creacion, contenido, descripcion, titulo) VALUES
-(6,'Carlos', '2020-11-12', 'contenido nuevo carlos', 'contenido nuevo carlos', 'titulo carlos');
+(6,'Carlos', '2020-11-12', 'contenido nuevo carlos', 'descripcion nuevo carlos', 'titulo carlos');
